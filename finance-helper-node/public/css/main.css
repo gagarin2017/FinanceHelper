@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #093426f5;
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+
+main {
+    padding: 0 20px;
+}
+
+.main-header__nav {
+    width: 100%;
+    padding: 10px 15px 10px 15px;
+}
+
+#main-header__app-title-logo {
+    display: inline-block;
+}
+
+.main-header__nav,
+.main-header__item-list,
+#main-header__app-title-logo,
+.main-header__item {
+    background-color: #0d4d37f5;
+    margin: 0;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#main-header__app-title-logo {
+    font-size: 21px;
+}
+
+.main-header__item-list {
+    text-align: right;
+    width: calc(100% - 210px);
+}
+
+.main-header__item-list a {
+    color: white;
+    text-decoration: none;
+    padding: 2px 15px;
+    margin: 0 5px;
+    /* border: 1px solid white; */
+}
+
+.main-header__item-list a:hover,
+.main-header__item-list a:active {
+    color: #093426f5;
+    background-color: white;
+    border-radius: 20px;
+}
+
+#main-header__app-title-logo {
+    font-family: 'Syne Mono', monospace;
+}
+
+#main_application_title {
+    font-family: 'Syne Mono', monospace;
+    height: 334px;
+    width: 504px;
+    background: url("../img/money_jar.jpg");
+    border-radius: 30px;
+}
+
+#main_application_title h1 {
+    padding: 20px;
+    font-size: 30px;
+}
+
+footer {
+    margin-top: 100px;
+    width: 100%;
+    text-align: center;
+    color: #51755d;
+}
+
+#author {
+    font-family: 'Architects Daughter', cursive;
+    font-size: 20px;
+    display: inline-block;
+}

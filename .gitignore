@@ -1,0 +1,6 @@
+finance-helper-node/node_modules
+finance-helper-node/npm-debug.log
+finance-helper-node/.DS_Store
+finance-helper-node/*.env
+*.code-workspace
+package-lock.json
