@@ -12,9 +12,4 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(express.static(path.join(__dirname, "public")));
 
 app.use(homepageRoute);
-
-let port =
-  process.env.port === null || process.env.port === ""
-    ? 3210
-    : process.env.port;
-app.listen(port);
+app.listen(process.env.PORT || 3210);
